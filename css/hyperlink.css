@@ -1,0 +1,16 @@
+a.mlink:link{
+    color:black;
+    text-decoration: underline;
+}
+a.mlink:visited{
+    color:black;
+    text-decoration: underline;
+}
+a.mlink:hover{
+    color:darkgray;
+    text-decoration: underline;
+}
+a.mlink:active{
+    color: black;
+    text-decoration: underline;
+}

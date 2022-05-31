@@ -1,0 +1,58 @@
+@import "navigation.css";
+@import "hyperlink.css";
+div.content{
+    margin-top: 64px;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+div.left{
+    float: left;
+    /* display: inline-block; */
+    /* left: 0; */
+    width: 15%;
+    text-align: center;
+    /* vertical-align: middle; */
+    height: 128px;
+    margin-top: 16px;
+    /* margin-bottom: 12px; */
+}
+div.right{
+    display: table-cell;
+    /* float: left; */
+    /* display: inline-block; */
+    margin-left: 20%;
+    margin-right: 0;
+    width: 75%;
+    height: 144px;
+    vertical-align: middle;
+}
+p.center_content{
+    text-align: center;
+}
+p.subtitle{
+    text-align: left;
+    font-size: x-large;
+    margin-bottom: 0;
+}
+p.body_content{
+    text-align: left;
+    text-indent: 2em;
+    color: black;
+    font-size: 5px;
+    /* vertical-align: center; */
+}
+img{
+    max-width: 70%;
+}
+hr.separate{
+    border: 0;
+    background: linear-gradient(to right, rgba(0, 0, 139, 0.473), transparent, transparent);
+    height: 2px;
+}
+img.bio{
+    margin: 0 auto;
+}
+footer{
+    width: 100%;
+}

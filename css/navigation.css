@@ -1,0 +1,42 @@
+ul.navigation{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-bottom: 3px double;
+    margin-bottom: 12px;
+    /* background-color: white; */
+}
+li.navigation{
+    display: inline;
+    float: right;
+    font-size: small;
+}
+li.navigation_text{
+    display: inline;
+    float: left;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 16px 16px;
+    text-align: center;
+    color: black;
+}
+a.navigation{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+}
+a.navigation:hover{
+    background-color: rgb(150, 150, 150, 0.5);
+}
+div.navigation{
+    position: fixed;
+    top: 0;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: white;
+    z-index: 5;
+}
