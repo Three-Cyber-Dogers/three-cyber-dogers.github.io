@@ -7,10 +7,26 @@ a.mlink:visited{
     text-decoration: underline;
 }
 a.mlink:hover{
-    color:darkgray;
+    color:darkgray; 
     text-decoration: underline;
 }
 a.mlink:active{
     color: black;
     text-decoration: underline;
+}
+a.hlink:link{
+    color: cornflowerblue;
+    text-decoration: none;
+}
+a.hlink:visited{
+    color: cornflowerblue;
+    text-decoration: none;
+}
+a.hlink:hover{
+    color: blue;
+    text-decoration: none;
+}
+a.hlink:active{
+    color: cornflowerblue;
+    text-decoration: none;
 }
