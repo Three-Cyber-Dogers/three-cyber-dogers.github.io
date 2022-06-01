@@ -39,7 +39,7 @@ p.body_content{
     text-align: left;
     text-indent: 2em;
     color: black;
-    font-size: 5px;
+    font-size: small;
     /* vertical-align: center; */
 }
 img{
